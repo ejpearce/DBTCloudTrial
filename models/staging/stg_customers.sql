@@ -3,4 +3,4 @@
     first_name,
     last_name
     
-from public.customers
+from {{source('evan_shop','customers')}}

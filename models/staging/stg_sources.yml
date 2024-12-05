@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: evan_shop
+    database: dev
+    schema: public
+    tables:
+        - name: customers
+        - name: orders

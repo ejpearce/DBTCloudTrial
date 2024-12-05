@@ -5,4 +5,4 @@ user_id,
 order_date,
 status
 
-from public.orders
+from {{ source('evan_shop', 'orders') }}
