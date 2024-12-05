@@ -2,9 +2,11 @@ version: 2
 
 sources:
   - name: evan_shop
+    description: a table
     database: dev
     schema: public
     tables:
         - name: customers
+          description: one unique customer per row
         - name: orders
           
